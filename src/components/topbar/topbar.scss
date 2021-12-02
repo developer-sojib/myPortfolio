@@ -3,7 +3,7 @@
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: #fff;
+  background-color: white;
   color: $mainColor;
   position: fixed;
   top: 0;
@@ -33,14 +33,24 @@
         align-items: center;
         margin-left: 30px;
 
+        @include mobile {
+          display: none;
+        }
+
+        .icon {
+          font-size: 18px;
+          margin-right: 5px;
+        }
+
         span {
           font-size: 15px;
           font-weight: 500;
         }
       }
     }
+
     .right {
-      .humburger {
+      .hamburger {
         width: 32px;
         height: 25px;
         display: flex;
@@ -61,19 +71,19 @@
 
   &.active {
     background-color: $mainColor;
-    color: #fff;
+    color: white;
 
-    .humburger {
+    .hamburger {
       span {
         &:first-child {
-          background-color: #fff;
+          background-color: white;
           transform: rotate(45deg);
         }
         &:nth-child(2) {
           opacity: 0;
         }
         &:last-child {
-          background-color: #fff;
+          background-color: white;
           transform: rotate(-45deg);
         }
       }

@@ -66,7 +66,7 @@ export const featuredPortfolio = [
     {
       id: 6,
       title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
     },
   ];
   
@@ -81,7 +81,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "Mobile Rampa UI Design",
       img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+        "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
     },
     {
       id: 3,
